@@ -9,7 +9,7 @@ Follow the steps below to set up and run the project locally:
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/PRATHVIRAJ67/Neviton-Capturing-Images-and-VIdeo--1.git
+git clone https://github.com/PRATHVIRAJ67/Neviton-Capture-Images-latest.git
 cd Neviton-Capturing-Images-and-VIdeo--1
 ```
 
