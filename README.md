@@ -2,7 +2,7 @@
 
 ## Live Demo
 You can access the hosted version here: 
-[Neviton Cam Video Access](https://neviton-capturing-images-and-v-ideo-1.vercel.app/)
+[Neviton Cam Video Access](https://neviton-capture-images-latest.vercel.app/)
 
 ## Installation
 Follow the steps below to set up and run the project locally:
