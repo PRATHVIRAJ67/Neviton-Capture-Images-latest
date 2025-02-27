@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .capture {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .video-grid video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .toggle-camera {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-camera:hover {
+    background-color: #45a049;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #45a049;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
